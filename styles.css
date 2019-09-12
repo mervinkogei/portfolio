@@ -1,4 +1,40 @@
 *background-image{
     background-size: cover;
 }
-body 
+nav{
+    display: flex;
+    display: inline-block;
+   
+    }
+    
+li {
+    text-decoration: none;
+    padding-block: 10px;
+    color: aqua;
+    display: inline-block;
+    
+}
+body h2{
+    float: right;
+}
+nav li a {
+    display: inline-block;
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    text-align: left;
+    color:lightblue;
+    font-family: sans-serif;
+   
+    
+}
+.nav {
+    display: flex;
+    float: right;
+    
+    }
+body{
+    background-image: url("images/back4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
