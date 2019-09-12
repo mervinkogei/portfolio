@@ -9,13 +9,14 @@ nav{
     
 li {
     text-decoration: none;
-    padding-block: 10px;
+    /* padding-block: 10px; */
     color: aqua;
     display: inline-block;
     
 }
-body h2{
-    float: right;
+body h1{
+    float: left;
+    
 }
 nav li a {
     display: inline-block;
@@ -23,18 +24,62 @@ nav li a {
     padding: 20px;
     text-decoration: none;
     text-align: left;
-    color:lightblue;
+    color:white;
     font-family: sans-serif;
-   
+    clear: both;
     
 }
 .nav {
     display: flex;
     float: right;
-    
+    clear: both;
+    justify-content: center;
+       
     }
 body{
-    background-image: url("images/back4.jpeg");
+    background-image: url("images/background5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+img {
+    border-radius: 80%;
+}
+.menu{
+    clear: both;
+    padding: 20px;
+}
+.menu p {
+    color: white;
+    margin-left: 60px;
+    font-size: 25px;
+}
+.message {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 25px;
+    width: 30%;
+}
+.message h2{
+    padding: 50px;
+}
+i {
+    color: white;
+}
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
