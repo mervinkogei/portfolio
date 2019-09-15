@@ -1,0 +1,50 @@
+
+.menu{
+    padding-top: 10px;
+    text-align: left;
+    background-color: lightskyblue;
+    background-size: cover;
+    padding: 30px;
+}
+.menu li{
+    display: flex;
+    display: inline;
+    padding: 20px;
+    
+}
+li a{
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu li a:hover{
+    color: aliceblue;
+}
+.goal{
+    box-shadow: 5px 5px 5px lightskyblue;
+    width: 40%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+.potrait{
+    box-shadow: 5px 5px 5px lightskyblue;
+    width: 50%;
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+    /* float: left; */
+}
+.goal h2{
+    text-align: center;
+}
+.goal p{
+    /* font-size: 28px; */
+    padding: 20px;
+    font-size: 28px;
+}
+img{
+    text-align: center;
+}

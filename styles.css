@@ -14,8 +14,11 @@ li {
     display: inline-block;
     
 }
-body h1{
-    float: left;
+body h1,h3{
+    float: right;
+    padding: 40px;
+    color: white;
+    padding-bottom: 20px;
     
 }
 nav li a {
@@ -70,16 +73,22 @@ i {
 .column {
     float: left;
     width: 25%;
+    box-shadow: 10px 10px lightgrey;
+    
+  }
+  #about{
+      clear: both;
   }
   
   /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
+  .row{
+    justify-content: center;
     clear: both;
+    color:white;
   }
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
   }
+  
