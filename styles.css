@@ -1,94 +1,17 @@
-*background-image{
-    background-size: cover;
+.bg-black{
+    background-color: black;
 }
-nav{
-    display: flex;
-    display: inline-block;
-   
-    }
-    
-li {
-    text-decoration: none;
-    /* padding-block: 10px; */
-    color: aqua;
-    display: inline-block;
-    
-}
-body h1,h3{
-    float: right;
-    padding: 40px;
-    color: white;
-    padding-bottom: 20px;
-    
-}
-nav li a {
-    display: inline-block;
-    display: flex;
-    padding: 20px;
-    text-decoration: none;
-    text-align: left;
-    color:white;
-    font-family: sans-serif;
-    clear: both;
-    
-}
-.nav {
-    display: flex;
-    float: right;
-    clear: both;
-    justify-content: center;
-       
-    }
-body{
-    background-image: url("images/background5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-img {
-    border-radius: 80%;
-}
-.menu{
-    clear: both;
-    padding: 20px;
-}
-.menu p {
-    color: white;
-    margin-left: 60px;
-    font-size: 25px;
-}
-.message {
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-left: 10px;
-    font-size: 25px;
+.font-div {
     width: 30%;
 }
-.message h2{
-    padding: 50px;
+img{
+    width: 100%;
+    height: 100%;
 }
-i {
-    color: white;
-}
-.column {
-    float: left;
-    width: 25%;
-    box-shadow: 10px 10px lightgrey;
-    
-  }
-  #about{
-      clear: both;
-  }
-  
-  /* Clear floats after the columns */
-  .row{
-    justify-content: center;
-    clear: both;
-    color:white;
-  }
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+
+/* Responsive */
+@media only screen and (min-width:1198px){
+    .font-div{
+        padding: 42.5px 0px !important;
     }
-  }
-  
+}
